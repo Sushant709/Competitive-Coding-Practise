@@ -1,0 +1,42 @@
+import java.util.*;
+public class problemq2{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number you want");
+        int num=sc.nextInt();
+        int r=num%3;
+        int q=num/3;
+        if(r==0){
+            System.out.println(int Math.pow(3,q));
+        }
+        else if(r==1){
+            System.out.println(4*Math.pow(3,q-1));
+        }
+        else{
+            System.out.println(2*Math.pow(3,q));
+        }
+    }
+}
+
+
+Code 2
+
+import java.util.*;
+public class problemq2{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number you want");
+        int num=sc.nextInt();
+        int r=num%3;
+        int q=num/3;
+        if(r==0){
+            System.out.println(int Math.pow(3,q));
+        }
+        else if(r==1){
+            System.out.println(4*Math.pow(3,q-1));
+        }
+        else{
+            System.out.println(2*Math.pow(3,q));
+        }
+    }
+}
